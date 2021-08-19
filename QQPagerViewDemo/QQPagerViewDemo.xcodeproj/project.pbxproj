@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0429819E26CE2CF0000B38CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429819D26CE2CF0000B38CE /* AppDelegate.m */; };
+		042981A426CE2CF0000B38CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981A326CE2CF0000B38CE /* ViewController.m */; };
+		042981A726CE2CF0000B38CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042981A526CE2CF0000B38CE /* Main.storyboard */; };
+		042981A926CE2CF5000B38CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042981A826CE2CF5000B38CE /* Assets.xcassets */; };
+		042981AC26CE2CF5000B38CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042981AA26CE2CF5000B38CE /* LaunchScreen.storyboard */; };
+		042981AF26CE2CF5000B38CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981AE26CE2CF5000B38CE /* main.m */; };
+		042981B926CE2CF6000B38CE /* QQPagerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981B826CE2CF6000B38CE /* QQPagerViewDemoTests.m */; };
+		042981C426CE2CF6000B38CE /* QQPagerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981C326CE2CF6000B38CE /* QQPagerViewDemoUITests.m */; };
+		042981E026CE2D26000B38CE /* QQPagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981D326CE2D26000B38CE /* QQPagerViewCell.m */; };
+		042981E126CE2D26000B38CE /* QQPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981D426CE2D26000B38CE /* QQPageControl.m */; };
+		042981E226CE2D26000B38CE /* QQPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981D526CE2D26000B38CE /* QQPagerView.m */; };
+		042981E326CE2D26000B38CE /* QQPagerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981D826CE2D26000B38CE /* QQPagerCollectionView.m */; };
+		042981E426CE2D26000B38CE /* QQPagerViewTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981D926CE2D26000B38CE /* QQPagerViewTransformer.m */; };
+		042981E526CE2D26000B38CE /* QQPagerViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981DA26CE2D26000B38CE /* QQPagerViewLayoutAttributes.m */; };
+		042981E626CE2D26000B38CE /* QQPagerViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981DE26CE2D26000B38CE /* QQPagerViewLayout.m */; };
+		042981F526CE2E19000B38CE /* CustomCellExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981EA26CE2E17000B38CE /* CustomCellExampleViewController.m */; };
+		042981F626CE2E19000B38CE /* TextLabelExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981EC26CE2E17000B38CE /* TextLabelExampleViewController.m */; };
+		042981F726CE2E19000B38CE /* BasicExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981ED26CE2E18000B38CE /* BasicExampleViewController.m */; };
+		042981F826CE2E19000B38CE /* TransformerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981EE26CE2E18000B38CE /* TransformerExampleViewController.m */; };
+		042981F926CE2E19000B38CE /* UIColor+QQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981F026CE2E18000B38CE /* UIColor+QQExtension.m */; };
+		042981FA26CE2E19000B38CE /* PageControlExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981F126CE2E18000B38CE /* PageControlExampleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042981B526CE2CF6000B38CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0429819126CE2CF0000B38CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0429819826CE2CF0000B38CE;
+			remoteInfo = QQPagerViewDemo;
+		};
+		042981C026CE2CF6000B38CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0429819126CE2CF0000B38CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0429819826CE2CF0000B38CE;
+			remoteInfo = QQPagerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0429819926CE2CF0000B38CE /* QQPagerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQPagerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429819C26CE2CF0000B38CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0429819D26CE2CF0000B38CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042981A226CE2CF0000B38CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		042981A326CE2CF0000B38CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		042981A626CE2CF0000B38CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042981A826CE2CF5000B38CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042981AB26CE2CF5000B38CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042981AD26CE2CF5000B38CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042981AE26CE2CF5000B38CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042981B426CE2CF6000B38CE /* QQPagerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQPagerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042981B826CE2CF6000B38CE /* QQPagerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewDemoTests.m; sourceTree = "<group>"; };
+		042981BA26CE2CF6000B38CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042981BF26CE2CF6000B38CE /* QQPagerViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQPagerViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042981C326CE2CF6000B38CE /* QQPagerViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewDemoUITests.m; sourceTree = "<group>"; };
+		042981C526CE2CF6000B38CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042981D226CE2D26000B38CE /* QQPagerViewTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerViewTransformer.h; sourceTree = "<group>"; };
+		042981D326CE2D26000B38CE /* QQPagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewCell.m; sourceTree = "<group>"; };
+		042981D426CE2D26000B38CE /* QQPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPageControl.m; sourceTree = "<group>"; };
+		042981D526CE2D26000B38CE /* QQPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerView.m; sourceTree = "<group>"; };
+		042981D626CE2D26000B38CE /* QQPagerViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerViewLayoutAttributes.h; sourceTree = "<group>"; };
+		042981D726CE2D26000B38CE /* QQPagerViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerViewLayout.h; sourceTree = "<group>"; };
+		042981D826CE2D26000B38CE /* QQPagerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerCollectionView.m; sourceTree = "<group>"; };
+		042981D926CE2D26000B38CE /* QQPagerViewTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewTransformer.m; sourceTree = "<group>"; };
+		042981DA26CE2D26000B38CE /* QQPagerViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewLayoutAttributes.m; sourceTree = "<group>"; };
+		042981DB26CE2D26000B38CE /* QQPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerView.h; sourceTree = "<group>"; };
+		042981DC26CE2D26000B38CE /* QQPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPageControl.h; sourceTree = "<group>"; };
+		042981DD26CE2D26000B38CE /* QQPagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerViewCell.h; sourceTree = "<group>"; };
+		042981DE26CE2D26000B38CE /* QQPagerViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPagerViewLayout.m; sourceTree = "<group>"; };
+		042981DF26CE2D26000B38CE /* QQPagerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPagerCollectionView.h; sourceTree = "<group>"; };
+		042981E926CE2E17000B38CE /* UIColor+QQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QQExtension.h"; sourceTree = "<group>"; };
+		042981EA26CE2E17000B38CE /* CustomCellExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellExampleViewController.m; sourceTree = "<group>"; };
+		042981EB26CE2E17000B38CE /* TransformerExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformerExampleViewController.h; sourceTree = "<group>"; };
+		042981EC26CE2E17000B38CE /* TextLabelExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextLabelExampleViewController.m; sourceTree = "<group>"; };
+		042981ED26CE2E18000B38CE /* BasicExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicExampleViewController.m; sourceTree = "<group>"; };
+		042981EE26CE2E18000B38CE /* TransformerExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformerExampleViewController.m; sourceTree = "<group>"; };
+		042981EF26CE2E18000B38CE /* PageControlExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlExampleViewController.h; sourceTree = "<group>"; };
+		042981F026CE2E18000B38CE /* UIColor+QQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QQExtension.m"; sourceTree = "<group>"; };
+		042981F126CE2E18000B38CE /* PageControlExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlExampleViewController.m; sourceTree = "<group>"; };
+		042981F226CE2E19000B38CE /* CustomCellExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellExampleViewController.h; sourceTree = "<group>"; };
+		042981F326CE2E19000B38CE /* TextLabelExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLabelExampleViewController.h; sourceTree = "<group>"; };
+		042981F426CE2E19000B38CE /* BasicExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicExampleViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0429819626CE2CF0000B38CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981B126CE2CF6000B38CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981BC26CE2CF6000B38CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0429819026CE2CF0000B38CE = {
+			isa = PBXGroup;
+			children = (
+				0429819B26CE2CF0000B38CE /* QQPagerViewDemo */,
+				042981B726CE2CF6000B38CE /* QQPagerViewDemoTests */,
+				042981C226CE2CF6000B38CE /* QQPagerViewDemoUITests */,
+				0429819A26CE2CF0000B38CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0429819A26CE2CF0000B38CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0429819926CE2CF0000B38CE /* QQPagerViewDemo.app */,
+				042981B426CE2CF6000B38CE /* QQPagerViewDemoTests.xctest */,
+				042981BF26CE2CF6000B38CE /* QQPagerViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0429819B26CE2CF0000B38CE /* QQPagerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0429819C26CE2CF0000B38CE /* AppDelegate.h */,
+				0429819D26CE2CF0000B38CE /* AppDelegate.m */,
+				042981A226CE2CF0000B38CE /* ViewController.h */,
+				042981A326CE2CF0000B38CE /* ViewController.m */,
+				042981D126CE2D26000B38CE /* QQPagerView */,
+				042981E726CE2D88000B38CE /* Demo */,
+				042981E826CE2D9C000B38CE /* Supporting Files */,
+			);
+			path = QQPagerViewDemo;
+			sourceTree = "<group>";
+		};
+		042981B726CE2CF6000B38CE /* QQPagerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				042981B826CE2CF6000B38CE /* QQPagerViewDemoTests.m */,
+				042981BA26CE2CF6000B38CE /* Info.plist */,
+			);
+			path = QQPagerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		042981C226CE2CF6000B38CE /* QQPagerViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042981C326CE2CF6000B38CE /* QQPagerViewDemoUITests.m */,
+				042981C526CE2CF6000B38CE /* Info.plist */,
+			);
+			path = QQPagerViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		042981D126CE2D26000B38CE /* QQPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				042981DC26CE2D26000B38CE /* QQPageControl.h */,
+				042981D426CE2D26000B38CE /* QQPageControl.m */,
+				042981DF26CE2D26000B38CE /* QQPagerCollectionView.h */,
+				042981D826CE2D26000B38CE /* QQPagerCollectionView.m */,
+				042981DB26CE2D26000B38CE /* QQPagerView.h */,
+				042981D526CE2D26000B38CE /* QQPagerView.m */,
+				042981DD26CE2D26000B38CE /* QQPagerViewCell.h */,
+				042981D326CE2D26000B38CE /* QQPagerViewCell.m */,
+				042981D726CE2D26000B38CE /* QQPagerViewLayout.h */,
+				042981DE26CE2D26000B38CE /* QQPagerViewLayout.m */,
+				042981D626CE2D26000B38CE /* QQPagerViewLayoutAttributes.h */,
+				042981DA26CE2D26000B38CE /* QQPagerViewLayoutAttributes.m */,
+				042981D226CE2D26000B38CE /* QQPagerViewTransformer.h */,
+				042981D926CE2D26000B38CE /* QQPagerViewTransformer.m */,
+			);
+			name = QQPagerView;
+			path = ../../QQPagerView;
+			sourceTree = "<group>";
+		};
+		042981E726CE2D88000B38CE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				042981F426CE2E19000B38CE /* BasicExampleViewController.h */,
+				042981ED26CE2E18000B38CE /* BasicExampleViewController.m */,
+				042981F226CE2E19000B38CE /* CustomCellExampleViewController.h */,
+				042981EA26CE2E17000B38CE /* CustomCellExampleViewController.m */,
+				042981EF26CE2E18000B38CE /* PageControlExampleViewController.h */,
+				042981F126CE2E18000B38CE /* PageControlExampleViewController.m */,
+				042981F326CE2E19000B38CE /* TextLabelExampleViewController.h */,
+				042981EC26CE2E17000B38CE /* TextLabelExampleViewController.m */,
+				042981EB26CE2E17000B38CE /* TransformerExampleViewController.h */,
+				042981EE26CE2E18000B38CE /* TransformerExampleViewController.m */,
+				042981E926CE2E17000B38CE /* UIColor+QQExtension.h */,
+				042981F026CE2E18000B38CE /* UIColor+QQExtension.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		042981E826CE2D9C000B38CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042981A526CE2CF0000B38CE /* Main.storyboard */,
+				042981A826CE2CF5000B38CE /* Assets.xcassets */,
+				042981AA26CE2CF5000B38CE /* LaunchScreen.storyboard */,
+				042981AD26CE2CF5000B38CE /* Info.plist */,
+				042981AE26CE2CF5000B38CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0429819826CE2CF0000B38CE /* QQPagerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042981C826CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemo" */;
+			buildPhases = (
+				0429819526CE2CF0000B38CE /* Sources */,
+				0429819626CE2CF0000B38CE /* Frameworks */,
+				0429819726CE2CF0000B38CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQPagerViewDemo;
+			productName = QQPagerViewDemo;
+			productReference = 0429819926CE2CF0000B38CE /* QQPagerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042981B326CE2CF6000B38CE /* QQPagerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042981CB26CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemoTests" */;
+			buildPhases = (
+				042981B026CE2CF6000B38CE /* Sources */,
+				042981B126CE2CF6000B38CE /* Frameworks */,
+				042981B226CE2CF6000B38CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042981B626CE2CF6000B38CE /* PBXTargetDependency */,
+			);
+			name = QQPagerViewDemoTests;
+			productName = QQPagerViewDemoTests;
+			productReference = 042981B426CE2CF6000B38CE /* QQPagerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042981BE26CE2CF6000B38CE /* QQPagerViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042981CE26CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemoUITests" */;
+			buildPhases = (
+				042981BB26CE2CF6000B38CE /* Sources */,
+				042981BC26CE2CF6000B38CE /* Frameworks */,
+				042981BD26CE2CF6000B38CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042981C126CE2CF6000B38CE /* PBXTargetDependency */,
+			);
+			name = QQPagerViewDemoUITests;
+			productName = QQPagerViewDemoUITests;
+			productReference = 042981BF26CE2CF6000B38CE /* QQPagerViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0429819126CE2CF0000B38CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0429819826CE2CF0000B38CE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					042981B326CE2CF6000B38CE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0429819826CE2CF0000B38CE;
+					};
+					042981BE26CE2CF6000B38CE = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0429819826CE2CF0000B38CE;
+					};
+				};
+			};
+			buildConfigurationList = 0429819426CE2CF0000B38CE /* Build configuration list for PBXProject "QQPagerViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0429819026CE2CF0000B38CE;
+			productRefGroup = 0429819A26CE2CF0000B38CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0429819826CE2CF0000B38CE /* QQPagerViewDemo */,
+				042981B326CE2CF6000B38CE /* QQPagerViewDemoTests */,
+				042981BE26CE2CF6000B38CE /* QQPagerViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0429819726CE2CF0000B38CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042981AC26CE2CF5000B38CE /* LaunchScreen.storyboard in Resources */,
+				042981A926CE2CF5000B38CE /* Assets.xcassets in Resources */,
+				042981A726CE2CF0000B38CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981B226CE2CF6000B38CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981BD26CE2CF6000B38CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0429819526CE2CF0000B38CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042981E126CE2D26000B38CE /* QQPageControl.m in Sources */,
+				042981E526CE2D26000B38CE /* QQPagerViewLayoutAttributes.m in Sources */,
+				042981E026CE2D26000B38CE /* QQPagerViewCell.m in Sources */,
+				042981E626CE2D26000B38CE /* QQPagerViewLayout.m in Sources */,
+				042981E326CE2D26000B38CE /* QQPagerCollectionView.m in Sources */,
+				042981A426CE2CF0000B38CE /* ViewController.m in Sources */,
+				042981F626CE2E19000B38CE /* TextLabelExampleViewController.m in Sources */,
+				042981E426CE2D26000B38CE /* QQPagerViewTransformer.m in Sources */,
+				042981F926CE2E19000B38CE /* UIColor+QQExtension.m in Sources */,
+				042981F726CE2E19000B38CE /* BasicExampleViewController.m in Sources */,
+				0429819E26CE2CF0000B38CE /* AppDelegate.m in Sources */,
+				042981F526CE2E19000B38CE /* CustomCellExampleViewController.m in Sources */,
+				042981F826CE2E19000B38CE /* TransformerExampleViewController.m in Sources */,
+				042981E226CE2D26000B38CE /* QQPagerView.m in Sources */,
+				042981FA26CE2E19000B38CE /* PageControlExampleViewController.m in Sources */,
+				042981AF26CE2CF5000B38CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981B026CE2CF6000B38CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042981B926CE2CF6000B38CE /* QQPagerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042981BB26CE2CF6000B38CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042981C426CE2CF6000B38CE /* QQPagerViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042981B626CE2CF6000B38CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0429819826CE2CF0000B38CE /* QQPagerViewDemo */;
+			targetProxy = 042981B526CE2CF6000B38CE /* PBXContainerItemProxy */;
+		};
+		042981C126CE2CF6000B38CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0429819826CE2CF0000B38CE /* QQPagerViewDemo */;
+			targetProxy = 042981C026CE2CF6000B38CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042981A526CE2CF0000B38CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042981A626CE2CF0000B38CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042981AA26CE2CF5000B38CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042981AB26CE2CF5000B38CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042981C626CE2CF6000B38CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		042981C726CE2CF6000B38CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042981C926CE2CF6000B38CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6NR3ZSKL2;
+				INFOPLIST_FILE = QQPagerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042981CA26CE2CF6000B38CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6NR3ZSKL2;
+				INFOPLIST_FILE = QQPagerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.demo1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042981CC26CE2CF6000B38CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQPagerViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.QQPagerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQPagerViewDemo.app/QQPagerViewDemo";
+			};
+			name = Debug;
+		};
+		042981CD26CE2CF6000B38CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQPagerViewDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.QQPagerViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQPagerViewDemo.app/QQPagerViewDemo";
+			};
+			name = Release;
+		};
+		042981CF26CE2CF6000B38CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQPagerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.QQPagerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQPagerViewDemo;
+			};
+			name = Debug;
+		};
+		042981D026CE2CF6000B38CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQPagerViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuze.QQPagerViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQPagerViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0429819426CE2CF0000B38CE /* Build configuration list for PBXProject "QQPagerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042981C626CE2CF6000B38CE /* Debug */,
+				042981C726CE2CF6000B38CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042981C826CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042981C926CE2CF6000B38CE /* Debug */,
+				042981CA26CE2CF6000B38CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042981CB26CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042981CC26CE2CF6000B38CE /* Debug */,
+				042981CD26CE2CF6000B38CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042981CE26CE2CF6000B38CE /* Build configuration list for PBXNativeTarget "QQPagerViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042981CF26CE2CF6000B38CE /* Debug */,
+				042981D026CE2CF6000B38CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0429819126CE2CF0000B38CE /* Project object */;
+}
