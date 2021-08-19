@@ -142,7 +142,7 @@
     NSInteger itemIndex = startIndex;
     CGFloat origin = startPosition;
     CGFloat maxPosition = self.scrollDirection == QQPagerViewScrollDirectionHorizontal ? MIN(CGRectGetMaxX(rect),self.contentSize.width-self.actualItemSize.width-self.leadingSpacing) : MIN(CGRectGetMaxY(rect),self.contentSize.height-self.actualItemSize.height-self.leadingSpacing);
-    while (origin - maxPosition <= FLT_EPSILON) {
+    while (origin - maxPosition <= MAX(100.0 * DBL_EPSILON * fabs(origin+maxPosition), DBL_MIN)) {
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:itemIndex%self.numberOfItems inSection:itemIndex/self.numberOfItems];
         QQPagerViewLayoutAttributes *attributes = (QQPagerViewLayoutAttributes *)[self layoutAttributesForItemAtIndexPath:indexPath];
         [self applyTransformToAttributes:attributes transformer:self.pagerView.transformer];
@@ -268,6 +268,9 @@
 
 // MARK:- Private functions
 - (void)commonInit {
+    self.numberOfSections = 1;
+    self.needsReprepare = YES;
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceOrientationDidChangeNotification:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 

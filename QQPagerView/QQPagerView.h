@@ -82,10 +82,10 @@ typedef NS_ENUM(NSInteger, QQPagerViewScrollDirection) {
 /// 确定的减速距离，它指示减速期间传递的 item 个数，默认1
 @property (nonatomic, assign) NSInteger decelerationDistance;
 
-/// 是否能滚动
+/// 是否能通过手势滚动，默认为YES
 @property (nonatomic, assign) BOOL scrollEnabled;
 
-/// 是否有弹簧效果
+/// 是否有弹簧效果，默认为YES
 @property (nonatomic, assign) BOOL bounces;
 
 /// 控制在只有一个 item 时是否删除无限循环，默认YES
