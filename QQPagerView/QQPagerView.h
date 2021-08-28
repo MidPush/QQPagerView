@@ -33,6 +33,8 @@ extern CGSize const QQPagerViewAutomaticSize;
 
 - (void)pagerView:(QQPagerView *)pagerView didSelectItemAtIndex:(NSInteger)index;
 
+- (void)pagerView:(QQPagerView *)pagerView didScrollToItemAtIndex:(NSInteger)index;
+
 - (void)pagerView:(QQPagerView *)pagerView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndex:(NSInteger)index;
 
 - (void)pagerView:(QQPagerView *)pagerView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndex:(NSInteger)index;

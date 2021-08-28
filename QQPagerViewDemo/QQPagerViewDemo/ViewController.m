@@ -11,6 +11,7 @@
 #import "PageControlExampleViewController.h"
 #import "CustomCellExampleViewController.h"
 #import "TextLabelExampleViewController.h"
+#import "PageControlExample2ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -37,7 +38,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return 6;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -55,6 +56,8 @@
         cell.textLabel.text = @"CustomCell Example";
     } else if (indexPath.row == 4) {
         cell.textLabel.text = @"PageControl Example";
+    } else if (indexPath.row == 5) {
+        cell.textLabel.text = @"PageControl2 Example";
     }
     return cell;
 }
@@ -72,6 +75,8 @@
         vc = [[CustomCellExampleViewController alloc] init];
     } else if (indexPath.row == 4) {
         vc = [[PageControlExampleViewController alloc] init];
+    } else if (indexPath.row == 5) {
+        vc = [[PageControlExample2ViewController alloc] init];
     }
     vc.title = cell.textLabel.text;
     [self.navigationController pushViewController:vc animated:YES];

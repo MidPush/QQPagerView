@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041960C326D8731A0081028C /* QQPageControlJaloro.m in Sources */ = {isa = PBXBuildFile; fileRef = 041960C226D8731A0081028C /* QQPageControlJaloro.m */; };
+		041960C626D876100081028C /* QQPageControlPaprika.m in Sources */ = {isa = PBXBuildFile; fileRef = 041960C526D876100081028C /* QQPageControlPaprika.m */; };
+		041960C926D8849F0081028C /* QQPageControlPuya.m in Sources */ = {isa = PBXBuildFile; fileRef = 041960C826D8849F0081028C /* QQPageControlPuya.m */; };
 		0429819E26CE2CF0000B38CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429819D26CE2CF0000B38CE /* AppDelegate.m */; };
 		042981A426CE2CF0000B38CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981A326CE2CF0000B38CE /* ViewController.m */; };
 		042981A726CE2CF0000B38CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042981A526CE2CF0000B38CE /* Main.storyboard */; };
@@ -28,6 +31,15 @@
 		042981F826CE2E19000B38CE /* TransformerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981EE26CE2E18000B38CE /* TransformerExampleViewController.m */; };
 		042981F926CE2E19000B38CE /* UIColor+QQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981F026CE2E18000B38CE /* UIColor+QQExtension.m */; };
 		042981FA26CE2E19000B38CE /* PageControlExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042981F126CE2E18000B38CE /* PageControlExampleViewController.m */; };
+		043DAD4E26D9CA500029CEC2 /* PageControlExample2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DAD4D26D9CA500029CEC2 /* PageControlExample2ViewController.m */; };
+		043DAD5226D9FBC30029CEC2 /* QQPageControlTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 043DAD5126D9FBC30029CEC2 /* QQPageControlTwo.m */; };
+		04B61AD426D75F6A0024F841 /* QQBasePageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61ACE26D75F690024F841 /* QQBasePageControl.m */; };
+		04B61AD526D75F6A0024F841 /* QQPageControlAji.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61ACF26D75F690024F841 /* QQPageControlAji.m */; };
+		04B61AD626D75F6A0024F841 /* QQIndicatorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61AD326D75F6A0024F841 /* QQIndicatorLayer.m */; };
+		04B61B3026D76D1E0024F841 /* QQPageControlAleppo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61B2F26D76D1E0024F841 /* QQPageControlAleppo.m */; };
+		04B61B3326D7718E0024F841 /* QQPageControlChimayo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61B3226D7718E0024F841 /* QQPageControlChimayo.m */; };
+		04B61B3626D776B80024F841 /* QQPageControlFresno.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61B3526D776B80024F841 /* QQPageControlFresno.m */; };
+		04B61B3926D780E40024F841 /* QQPageControlJalapeno.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B61B3826D780E40024F841 /* QQPageControlJalapeno.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041960C126D8731A0081028C /* QQPageControlJaloro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlJaloro.h; sourceTree = "<group>"; };
+		041960C226D8731A0081028C /* QQPageControlJaloro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlJaloro.m; sourceTree = "<group>"; };
+		041960C426D876100081028C /* QQPageControlPaprika.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlPaprika.h; sourceTree = "<group>"; };
+		041960C526D876100081028C /* QQPageControlPaprika.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlPaprika.m; sourceTree = "<group>"; };
+		041960C726D8849F0081028C /* QQPageControlPuya.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlPuya.h; sourceTree = "<group>"; };
+		041960C826D8849F0081028C /* QQPageControlPuya.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlPuya.m; sourceTree = "<group>"; };
 		0429819926CE2CF0000B38CE /* QQPagerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQPagerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429819C26CE2CF0000B38CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0429819D26CE2CF0000B38CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +108,24 @@
 		042981F226CE2E19000B38CE /* CustomCellExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellExampleViewController.h; sourceTree = "<group>"; };
 		042981F326CE2E19000B38CE /* TextLabelExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextLabelExampleViewController.h; sourceTree = "<group>"; };
 		042981F426CE2E19000B38CE /* BasicExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicExampleViewController.h; sourceTree = "<group>"; };
+		043DAD4C26D9CA500029CEC2 /* PageControlExample2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageControlExample2ViewController.h; sourceTree = "<group>"; };
+		043DAD4D26D9CA500029CEC2 /* PageControlExample2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControlExample2ViewController.m; sourceTree = "<group>"; };
+		043DAD5026D9FBC30029CEC2 /* QQPageControlTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlTwo.h; sourceTree = "<group>"; };
+		043DAD5126D9FBC30029CEC2 /* QQPageControlTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlTwo.m; sourceTree = "<group>"; };
+		04B61ACE26D75F690024F841 /* QQBasePageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQBasePageControl.m; sourceTree = "<group>"; };
+		04B61ACF26D75F690024F841 /* QQPageControlAji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQPageControlAji.m; sourceTree = "<group>"; };
+		04B61AD026D75F690024F841 /* QQIndicatorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQIndicatorLayer.h; sourceTree = "<group>"; };
+		04B61AD126D75F6A0024F841 /* QQPageControlAji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQPageControlAji.h; sourceTree = "<group>"; };
+		04B61AD226D75F6A0024F841 /* QQBasePageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQBasePageControl.h; sourceTree = "<group>"; };
+		04B61AD326D75F6A0024F841 /* QQIndicatorLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQIndicatorLayer.m; sourceTree = "<group>"; };
+		04B61B2E26D76D1E0024F841 /* QQPageControlAleppo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlAleppo.h; sourceTree = "<group>"; };
+		04B61B2F26D76D1E0024F841 /* QQPageControlAleppo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlAleppo.m; sourceTree = "<group>"; };
+		04B61B3126D7718E0024F841 /* QQPageControlChimayo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlChimayo.h; sourceTree = "<group>"; };
+		04B61B3226D7718E0024F841 /* QQPageControlChimayo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlChimayo.m; sourceTree = "<group>"; };
+		04B61B3426D776B80024F841 /* QQPageControlFresno.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlFresno.h; sourceTree = "<group>"; };
+		04B61B3526D776B80024F841 /* QQPageControlFresno.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlFresno.m; sourceTree = "<group>"; };
+		04B61B3726D780E40024F841 /* QQPageControlJalapeno.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQPageControlJalapeno.h; sourceTree = "<group>"; };
+		04B61B3826D780E40024F841 /* QQPageControlJalapeno.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQPageControlJalapeno.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +180,8 @@
 				0429819D26CE2CF0000B38CE /* AppDelegate.m */,
 				042981A226CE2CF0000B38CE /* ViewController.h */,
 				042981A326CE2CF0000B38CE /* ViewController.m */,
+				043DAD4F26D9FB8D0029CEC2 /* QQPageControl2 */,
+				04B61ACD26D75F4E0024F841 /* QQPageControl */,
 				042981D126CE2D26000B38CE /* QQPagerView */,
 				042981E726CE2D88000B38CE /* Demo */,
 				042981E826CE2D9C000B38CE /* Supporting Files */,
@@ -200,6 +238,8 @@
 				042981EA26CE2E17000B38CE /* CustomCellExampleViewController.m */,
 				042981EF26CE2E18000B38CE /* PageControlExampleViewController.h */,
 				042981F126CE2E18000B38CE /* PageControlExampleViewController.m */,
+				043DAD4C26D9CA500029CEC2 /* PageControlExample2ViewController.h */,
+				043DAD4D26D9CA500029CEC2 /* PageControlExample2ViewController.m */,
 				042981F326CE2E19000B38CE /* TextLabelExampleViewController.h */,
 				042981EC26CE2E17000B38CE /* TextLabelExampleViewController.m */,
 				042981EB26CE2E17000B38CE /* TransformerExampleViewController.h */,
@@ -220,6 +260,42 @@
 				042981AE26CE2CF5000B38CE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043DAD4F26D9FB8D0029CEC2 /* QQPageControl2 */ = {
+			isa = PBXGroup;
+			children = (
+				043DAD5026D9FBC30029CEC2 /* QQPageControlTwo.h */,
+				043DAD5126D9FBC30029CEC2 /* QQPageControlTwo.m */,
+			);
+			path = QQPageControl2;
+			sourceTree = "<group>";
+		};
+		04B61ACD26D75F4E0024F841 /* QQPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				04B61AD226D75F6A0024F841 /* QQBasePageControl.h */,
+				04B61ACE26D75F690024F841 /* QQBasePageControl.m */,
+				04B61AD026D75F690024F841 /* QQIndicatorLayer.h */,
+				04B61AD326D75F6A0024F841 /* QQIndicatorLayer.m */,
+				04B61AD126D75F6A0024F841 /* QQPageControlAji.h */,
+				04B61ACF26D75F690024F841 /* QQPageControlAji.m */,
+				04B61B2E26D76D1E0024F841 /* QQPageControlAleppo.h */,
+				04B61B2F26D76D1E0024F841 /* QQPageControlAleppo.m */,
+				04B61B3126D7718E0024F841 /* QQPageControlChimayo.h */,
+				04B61B3226D7718E0024F841 /* QQPageControlChimayo.m */,
+				04B61B3426D776B80024F841 /* QQPageControlFresno.h */,
+				04B61B3526D776B80024F841 /* QQPageControlFresno.m */,
+				04B61B3726D780E40024F841 /* QQPageControlJalapeno.h */,
+				04B61B3826D780E40024F841 /* QQPageControlJalapeno.m */,
+				041960C126D8731A0081028C /* QQPageControlJaloro.h */,
+				041960C226D8731A0081028C /* QQPageControlJaloro.m */,
+				041960C426D876100081028C /* QQPageControlPaprika.h */,
+				041960C526D876100081028C /* QQPageControlPaprika.m */,
+				041960C726D8849F0081028C /* QQPageControlPuya.h */,
+				041960C826D8849F0081028C /* QQPageControlPuya.m */,
+			);
+			path = QQPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,21 +428,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				042981E126CE2D26000B38CE /* QQPageControl.m in Sources */,
+				043DAD4E26D9CA500029CEC2 /* PageControlExample2ViewController.m in Sources */,
+				04B61B3926D780E40024F841 /* QQPageControlJalapeno.m in Sources */,
+				04B61AD526D75F6A0024F841 /* QQPageControlAji.m in Sources */,
 				042981E526CE2D26000B38CE /* QQPagerViewLayoutAttributes.m in Sources */,
+				04B61B3326D7718E0024F841 /* QQPageControlChimayo.m in Sources */,
 				042981E026CE2D26000B38CE /* QQPagerViewCell.m in Sources */,
+				04B61AD426D75F6A0024F841 /* QQBasePageControl.m in Sources */,
 				042981E626CE2D26000B38CE /* QQPagerViewLayout.m in Sources */,
+				04B61B3626D776B80024F841 /* QQPageControlFresno.m in Sources */,
 				042981E326CE2D26000B38CE /* QQPagerCollectionView.m in Sources */,
 				042981A426CE2CF0000B38CE /* ViewController.m in Sources */,
 				042981F626CE2E19000B38CE /* TextLabelExampleViewController.m in Sources */,
+				04B61AD626D75F6A0024F841 /* QQIndicatorLayer.m in Sources */,
 				042981E426CE2D26000B38CE /* QQPagerViewTransformer.m in Sources */,
 				042981F926CE2E19000B38CE /* UIColor+QQExtension.m in Sources */,
+				041960C326D8731A0081028C /* QQPageControlJaloro.m in Sources */,
 				042981F726CE2E19000B38CE /* BasicExampleViewController.m in Sources */,
+				041960C626D876100081028C /* QQPageControlPaprika.m in Sources */,
 				0429819E26CE2CF0000B38CE /* AppDelegate.m in Sources */,
 				042981F526CE2E19000B38CE /* CustomCellExampleViewController.m in Sources */,
 				042981F826CE2E19000B38CE /* TransformerExampleViewController.m in Sources */,
 				042981E226CE2D26000B38CE /* QQPagerView.m in Sources */,
+				04B61B3026D76D1E0024F841 /* QQPageControlAleppo.m in Sources */,
+				041960C926D8849F0081028C /* QQPageControlPuya.m in Sources */,
 				042981FA26CE2E19000B38CE /* PageControlExampleViewController.m in Sources */,
 				042981AF26CE2CF5000B38CE /* main.m in Sources */,
+				043DAD5226D9FBC30029CEC2 /* QQPageControlTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +629,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6NR3ZSKL2;
 				INFOPLIST_FILE = QQPagerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -559,6 +648,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6NR3ZSKL2;
 				INFOPLIST_FILE = QQPagerViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

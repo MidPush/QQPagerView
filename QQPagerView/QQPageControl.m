@@ -11,7 +11,6 @@
 
 @property (nonatomic, strong) UIView *contentView;
 
-
 @property (nonatomic, assign) BOOL needsUpdateIndicators;
 @property (nonatomic, assign) BOOL needsCreateIndicators;
 
@@ -157,6 +156,7 @@
     
     for (NSInteger i = 0; i < self.numberOfPages; i++) {
         CAShapeLayer *layer = [CAShapeLayer layer];
+        layer.actions = @{@"bounds":[NSNull null]};
         [self.contentView.layer addSublayer:layer];
         [self.indicatorLayers addObject:layer];
     }
@@ -204,6 +204,10 @@
             layer.path = path.CGPath;
         } else {
             layer.path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, self.itemSpacing, self.itemSpacing)].CGPath;
+        }
+        NSValue *transformValue = self.transforms[@(state)];
+        if (transformValue) {
+            layer.transform = CATransform3DMakeAffineTransform([transformValue CGAffineTransformValue]);
         }
         NSNumber *alphaNumber = self.alphas[@(state)];
         layer.opacity = alphaNumber ? [alphaNumber floatValue] : 1.0;

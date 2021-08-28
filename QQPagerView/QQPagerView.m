@@ -270,14 +270,13 @@ CGSize const QQPagerViewAutomaticSize = {0, 0};
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    self.possibleTargetingIndexPath = indexPath;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.possibleTargetingIndexPath = nil;
+    });
+    NSInteger index = indexPath.item % self.numberOfItems;
+    [self scrollToItemAtIndex:index animated:YES];
     if ([self.delegate respondsToSelector:@selector(pagerView:didSelectItemAtIndex:)]) {
-        
-        self.possibleTargetingIndexPath = indexPath;
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            self.possibleTargetingIndexPath = nil;
-        });
-        
-        NSInteger index = indexPath.item % self.numberOfItems;
         [self.delegate pagerView:self didSelectItemAtIndex:index];
     }
 }
@@ -352,11 +351,19 @@ CGSize const QQPagerViewAutomaticSize = {0, 0};
     if ([self.delegate respondsToSelector:@selector(pagerViewDidEndScrollingAnimation:)]) {
         [self.delegate pagerViewDidEndScrollingAnimation:self];
     }
+    
+    if ([self.delegate respondsToSelector:@selector(pagerView:didScrollToItemAtIndex:)]) {
+        [self.delegate pagerView:self didScrollToItemAtIndex:self.currentIndex];
+    }
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if ([self.delegate respondsToSelector:@selector(pagerViewDidEndDecelerating:)]) {
         [self.delegate pagerViewDidEndDecelerating:self];
+    }
+    
+    if ([self.delegate respondsToSelector:@selector(pagerView:didScrollToItemAtIndex:)]) {
+        [self.delegate pagerView:self didScrollToItemAtIndex:self.currentIndex];
     }
 }
 
